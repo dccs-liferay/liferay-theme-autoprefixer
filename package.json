@@ -1,0 +1,28 @@
+{
+  "name": "liferay-theme-autoprefixer",
+  "version": "1.0.0",
+  "main": "package.json",
+  "keywords": [
+    "liferay-theme-autoprefixer"
+  ],
+  "liferayTheme": {
+    "baseTheme": "styled",
+    "screenshot": "",
+    "rubySass": false,
+    "templateLanguage": "ftl",
+    "version": "7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "liferay-theme-deps-7.0": "~1.0.0",
+    "liferay-theme-tasks": "^1.4.5",
+    "path": "^0.12.7"
+  },
+  "publishConfig": {
+    "tag": "7_0_x"
+  }
+}
